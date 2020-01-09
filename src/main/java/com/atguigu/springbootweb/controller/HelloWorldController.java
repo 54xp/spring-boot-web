@@ -14,10 +14,10 @@ import java.util.Map;
  */
 @Controller
 public class HelloWorldController {
-    @RequestMapping({"/","/login.html"})
-    public String index(){
-        return "login";
-    }
+//    @RequestMapping({"/","/login.html"})
+//    public String index(){
+//        return "login";
+//    }
 
     @ResponseBody
     @RequestMapping("/hello")
